@@ -1,0 +1,16 @@
+def calculategmean(n,r):
+    mean = (n*r)/(n+r)
+    print(mean)
+n=10
+r=10
+calculategmean(n,r)
+if(n>r):
+    print("First number is greater")
+else:
+    print("Second number is greater or equal")
+#gmean = (n*r)/(n+r)
+#print(gmean)
+#c=8
+#d=7
+#gmean1 = (c*d)/(c+d)
+#print(gmean1)
